@@ -20,7 +20,10 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
     return string
 
 def get_number_of_char(string: str, char: str) -> int:
-    pass
+
+    string = string.find(s1)
+
+    return string
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
